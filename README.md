@@ -46,6 +46,19 @@ Eureka Discovery-Service URL: `http://localhost:8761`
 
 ![Screenshot from 2020-12-09 10-22-05](https://github.com/joenan/ewallet-springboot-microservice/blob/main/EurekaDiscoveryDashboard.PNG)
 
+
+**For micro-auth-service Swagger Documentation**
+![Screenshot from 2020-12-09 10-22-05](https://github.com/joenan/ewallet-springboot-microservice/blob/main/AuthSwaggerDoc.PNG)
+
+**For micro-account-service Swagger Documentation**
+![Screenshot from 2020-12-09 10-22-05](https://github.com/joenan/ewallet-springboot-microservice/blob/main/AccountSwaggerDoc.PNG)
+
+**For micro-transaction-service Swagger Documentation**
+![Screenshot from 2020-12-09 10-22-05](https://github.com/joenan/ewallet-springboot-microservice/blob/main/TransactionSwaggerDoc.PNG)
+
+**For micro-notification-service Swagger Documentation**
+![Screenshot from 2020-12-09 10-22-05](https://github.com/joenan/ewallet-springboot-microservice/blob/main/NotificationSwaggerDoc.PNG)
+
 ##To create User Roles in  the application,
 **Run this query in MYSQL or MariaDB**
 ```
