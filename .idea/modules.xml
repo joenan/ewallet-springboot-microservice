@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micro-transaction-service/Micro-Transaction-Service.iml" filepath="$PROJECT_DIR$/micro-transaction-service/Micro-Transaction-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-account-service/micro-account-service.iml" filepath="$PROJECT_DIR$/micro-account-service/micro-account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-auth-service/micro-auth-service.iml" filepath="$PROJECT_DIR$/micro-auth-service/micro-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-eureka-service/micro-eureka-service.iml" filepath="$PROJECT_DIR$/micro-eureka-service/micro-eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-gateway-service/micro-gateway-service.iml" filepath="$PROJECT_DIR$/micro-gateway-service/micro-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-notification-service/micro-notification-service.iml" filepath="$PROJECT_DIR$/micro-notification-service/micro-notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-microservice-microservice.iml" filepath="$PROJECT_DIR$/payment-microservice-microservice.iml" />
+    </modules>
+  </component>
+</project>

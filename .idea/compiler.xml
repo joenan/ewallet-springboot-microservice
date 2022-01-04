@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-gateway-service" />
+        <module name="micro-auth-service" />
+        <module name="micro-account-service" />
+        <module name="Micro-Transaction-Service" />
+        <module name="micro-eureka-service" />
+        <module name="micro-notification-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micro-account-service" target="11" />
+      <module name="micro-auth-service" target="11" />
+      <module name="micro-eureka-service" target="11" />
+      <module name="micro-gateway-service" target="11" />
+      <module name="micro-notification-service" target="11" />
+      <module name="Micro-Transaction-Service" target="11" />
+      <module name="payment-microservice-microservice" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Micro-Transaction-Service" options="-parameters" />
+      <module name="micro-account-service" options="-parameters" />
+      <module name="micro-auth-service" options="-parameters" />
+      <module name="micro-eureka-service" options="-parameters" />
+      <module name="micro-gateway-service" options="-parameters" />
+      <module name="micro-notification-service" options="-parameters" />
+    </option>
+  </component>
+</project>
