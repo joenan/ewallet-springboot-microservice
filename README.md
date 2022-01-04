@@ -44,10 +44,7 @@ After Zookeper server and Kafka server is running,
 The micro services can be seen on Eureka Discovery Dashboard using the url below
 Eureka Discovery-Service URL: `http://localhost:8761`
 
-![Screenshot from 2020-12-09 10-22-05](https://user-images.githubusercontent.com/31319842/101584943-ed47ff00-3a08-11eb-9d01-e196e0e089a6.png)
-
-
-![Screenshot from 2020-12-09 10-22-12](https://user-images.githubusercontent.com/31319842/101584942-ec16d200-3a08-11eb-9355-0e082a2493c7.png)
+![Screenshot from 2020-12-09 10-22-05](https://github.com/joenan/ewallet-springboot-microservice/blob/main/EurekaDiscoveryDashboard.PNG)
 
 ##To create User Roles in  the application,
 **Run this query in MYSQL or MariaDB**
