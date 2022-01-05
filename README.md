@@ -18,7 +18,7 @@
 
 ### Tools you will need
 
-* Maven 4.0 as your build tool
+* Maven 3.x as your build tool
 * Your favorite IDE but I will recommend `IntelliJ 2020`.
 * MySQL server or MariaDB Server
 * JDK 11
