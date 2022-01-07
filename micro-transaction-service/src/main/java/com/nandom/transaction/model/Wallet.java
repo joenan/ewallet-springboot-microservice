@@ -1,5 +1,6 @@
 package com.nandom.transaction.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
@@ -28,6 +29,7 @@ public class Wallet implements Serializable {
     @Column(name="date_created")
     private LocalDateTime dateCreated;
 
+    @JsonIgnore
     @JoinColumn(name = "account_id", referencedColumnName = "account_id", insertable = false, updatable = false)
     @OneToOne(optional = false)
     private Account account;

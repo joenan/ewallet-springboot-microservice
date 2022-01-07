@@ -164,13 +164,13 @@ public class WalletServiceImpl implements WalletService {
 
     public WalletResponseDto maptoWalletResponseDto(Wallet data, double amount) {
         WalletResponseDto dto = new WalletResponseDto();
-        dto.setAccountId(data.getAccountId().getAccountId());
-        dto.setAccountNo(data.getAccountId().getAccountNo());
-        dto.setEmail(data.getAccountId().getEmail());
-        dto.setFirstName(data.getAccountId().getFirstName());
-        dto.setLastName(data.getAccountId().getLastName());
-        dto.setPhone(data.getAccountId().getPhone());
-        dto.setSurname(data.getAccountId().getSurname());
+        dto.setAccountId(data.getAccount().getAccountId());
+        dto.setAccountNo(data.getAccount().getAccountNo());
+        dto.setEmail(data.getAccount().getEmail());
+        dto.setFirstName(data.getAccount().getFirstName());
+        dto.setLastName(data.getAccount().getLastName());
+        dto.setPhone(data.getAccount().getPhone());
+        dto.setSurname(data.getAccount().getSurname());
         dto.setWalletAddress(data.getWalletAddress());
         dto.setWalletBalance(data.getWalletBalance());
         dto.setWalletId(data.getWalletId());

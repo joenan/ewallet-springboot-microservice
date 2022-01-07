@@ -120,7 +120,7 @@ public class AuthController {
 //    @PostMapping("/role")
 //    public ResponseEntity<?> registerRole(@Valid @RequestBody RoleRequest data) {
 //        Role role = new Role();
-//        role.setName(ERole.valueOf(data.getName()));
+//        role.setName( ERole.valueOf(data.getName()));
 //        roleRepository.save(role);
 //        return ResponseEntity.ok().body(Collections.singletonMap("data", role));
 //    }
