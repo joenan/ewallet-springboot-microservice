@@ -26,6 +26,7 @@
 ### How to run payment microservice?
 
 **For Live Demo of the application**:
+
 please first create the roles in the database using the sql code below 
 ```
 INSERT INTO roles(NAME) VALUES('ROLE_USER');
@@ -34,9 +35,13 @@ INSERT INTO roles(NAME) VALUES('ROLE_ADMIN');
 And Remember to use ROLE_ADMIN or ROLE_USER, when signing up
 
 ```Visit this link [http://63.250.53.24:8761] for the eureka server```
+
 ```[http://63.250.53.24:8180/auth-api/swagger-ui.html] for Micro Auth Service Swagger Documentation```
+
 ```[http://63.250.53.24:8180/account-api/swagger-ui.html] for Micro Account Service Swagger Documentation```
+
 ```[http://63.250.53.24:8180/transaction-api/swagger-ui.html] for Auth Transaction Service Swagger Documentation```
+
 ```[http://63.250.53.24:8180/notification-api/swagger-ui.html] for Auth Notification Service Swagger Documentation```
 
 
