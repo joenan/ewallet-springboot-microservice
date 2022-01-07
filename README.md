@@ -45,7 +45,7 @@ And Remember to use ROLE_ADMIN or ROLE_USER, when signing up
 ```[http://63.250.53.24:8180/notification-api/swagger-ui.html] for Auth Notification Service Swagger Documentation```
 
 
-**Application Running Process**:
+**HOW TO SETUP THE APP LOCALLY ON YOUR PC**:
 First, Download Apache Kafka from [https://kafka.apache.org/downloads]
 
 Secondly, we need to change the default log directory for zookeeper and kafka server Then start Zookeeper Server and then start up Kafka server. Follow this link for installation instruction [https://www.goavega.com/install-apache-kafka-on-windows/]
