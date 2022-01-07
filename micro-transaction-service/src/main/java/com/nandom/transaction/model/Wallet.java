@@ -28,9 +28,9 @@ public class Wallet implements Serializable {
     @Column(name="date_created")
     private LocalDateTime dateCreated;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name="account_id",referencedColumnName="account_id", insertable=false, updatable=false)
-    private Account AccountId;
+    @JoinColumn(name = "account_id", referencedColumnName = "account_id", insertable = false, updatable = false)
+    @OneToOne(optional = false)
+    private Account account;
 
 
 }

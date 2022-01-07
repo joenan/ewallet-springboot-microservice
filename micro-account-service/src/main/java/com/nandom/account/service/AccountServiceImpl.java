@@ -64,9 +64,11 @@ public class AccountServiceImpl implements AccountService{
         account.setPhone(dto.getPhone());
         account.setSurname(dto.getSurname());
 
+        Account persistedAccount = accountRepository.save(account);
+
         Wallet wallet = new Wallet();
         wallet.setDateCreated(LocalDateTime.now());
-        wallet.setAccountId(account);
+        wallet.setAccount(persistedAccount);
         wallet.setWalletAddress(generateString());
         wallet.setWalletBalance(0.00);
 
@@ -128,13 +130,13 @@ public class AccountServiceImpl implements AccountService{
 
     public WalletResponseDto maptoWalletResponseDto(Wallet data) {
         WalletResponseDto dto = new WalletResponseDto();
-        dto.setAccountId(data.getAccountId().getAccountId());
-        dto.setAccountNo(data.getAccountId().getAccountNo());
-        dto.setEmail(data.getAccountId().getEmail());
-        dto.setFirstName(data.getAccountId().getFirstName());
-        dto.setLastName(data.getAccountId().getLastName());
-        dto.setPhone(data.getAccountId().getPhone());
-        dto.setSurname(data.getAccountId().getSurname());
+        dto.setAccountId(data.getAccount().getAccountId());
+        dto.setAccountNo(data.getAccount().getAccountNo());
+        dto.setEmail(data.getAccount().getEmail());
+        dto.setFirstName(data.getAccount().getFirstName());
+        dto.setLastName(data.getAccount().getLastName());
+        dto.setPhone(data.getAccount().getPhone());
+        dto.setSurname(data.getAccount().getSurname());
         dto.setWalletAddress(data.getWalletAddress());
         dto.setWalletBalance(data.getWalletBalance());
         dto.setWalletId(data.getWalletId());

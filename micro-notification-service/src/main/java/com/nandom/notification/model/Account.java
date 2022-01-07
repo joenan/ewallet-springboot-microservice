@@ -35,4 +35,7 @@ public class Account implements Serializable {
     @Column(name = "account_no")
     private String accountNo;
 
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "account")
+    private Wallet wallet;
+
 }
