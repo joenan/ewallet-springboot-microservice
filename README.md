@@ -37,7 +37,7 @@ After Zookeper server and Kafka server is running,
 - STEP 3: run `micro-auth-service`
 - Lastly, we need to run `micro-account-service`, `micro-transaction-service` and `micro-notification-service`
 
-**NOTE** we run each of the micro service by navigating to the directory of the each micro service on the terminal/command line using the command `mvn spring-boot:run` or run each of them directory from your IDE
+**NOTE** we run each of the micro service by navigating to the directory of the each micro service on the terminal/command line using the command `mvn spring-boot:run` or `mvn org.springframework.boot:spring-boot-maven-plugin:run` or run each of micro services directory from your IDE
 
 **AFTER RUNNING EACH MICRO SERVICE**
 
